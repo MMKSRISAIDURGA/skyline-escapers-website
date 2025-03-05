@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyLine Escapers - Best Travel Destinations</title>
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Discover the best travel destinations, top hotels, and must-visit places. Plan your dream vacation with SkyLine Escapers!">
+    <meta name="keywords" content="travel, tourism, Dubai, vacation, hotels, destinations, flights">
+    <meta name="author" content="SkyLine Escapers">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- JavaScript for Redirection -->
+    <script>
+        function redirectToPage() {
+            var destination = document.getElementById("destinationSelect").value;
+            if (destination) {
+                window.location.href = destination;
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="leftpart">
+            <img src="final_aero.jpg">
+            <div class="logo">SkyLine Escapes</div>
+            </div>
+
+        
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn"><b>Destinations</b></button>
+                        <div class="dropdown-content">
+                            <a href="dubai-hotel.html"><b>Dubai</b></a>
+                            <a href="malasia.html"><b>Malaysia</b></a>
+                            <a href="baali.html"><b>Bali</b></a>
+                        </div>
+                    </div>
+                </li>
+                
+                <li><a href="login.html"><b>Login</b></a></li>
+                <li><a href="contact.html"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Discover Your Next Adventure</h1>
+        <p>Every trip is a new chapter, every place is a new adventure.<br> Pack your bags, step out, and let the world surprise you!</p>
+        <a href="destination.html" class="btn">Explore Now &#8594;</a>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section class="destinations">
+        <h2>Top Travel Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/823696/pexels-photo-823696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Dubai">
+                <h3>Dubai</h3>
+                <p>Explore the luxurious city of Dubai with its iconic skyscrapers and beaches.</p>
+                <a href="dubai-hotel.html">View More</a>
+            </div>
+            <div class="destination">
+                <img src="https://www.roadaffair.com/wp-content/uploads/2018/09/pulau-perhentian-besar-malaysia-shutterstock_688381156.jpg" alt="Malaysia">
+                <h3>Malaysia</h3>
+                <p>Experience the beauty of Malaysia with its vibrant culture and scenic spots.</p>
+                <a href="malasia.html">View More</a>
+            </div>
+            <div class="destination">
+                <img src="https://images.pexels.com/photos/1544351/pexels-photo-1544351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bali">
+                <h3>Bali</h3>
+                <p>Relax in the tropical paradise of Bali with stunning beaches.</p>
+                <a href="baali.html">View More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SkyLine Escapers. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
