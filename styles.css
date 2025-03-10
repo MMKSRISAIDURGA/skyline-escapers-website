@@ -1,4 +1,4 @@
-/* Reset Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* Body Styling */
 
-
-/* Header Styling */
 .header {
     display: flex;
     justify-content: space-between;
@@ -64,8 +61,7 @@
     text-decoration: none;
 }
 
-/* Hero Section */
-/* Hero Section */
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -113,7 +109,7 @@
     background: rgb(6, 6, 157);
 }
 
-/* Destinations Section */
+
 .destinations {
     text-align: center;
     padding: 50px 20px;
@@ -131,9 +127,9 @@
 .destinations h2 {
     font-size: 50px;
     margin-bottom: 30px;
-    /* Aligning text to the left */
+    
     width: 100%;
-    padding-left: 20px; /* Adding padding for spacing */
+    padding-left: 20px; 
     color: rgb(2, 2, 46);
 }
 
@@ -185,12 +181,6 @@
     background-color: rgba(128, 128, 128, 0.305);
 }
 
-
-
-
-
-
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
@@ -198,7 +188,7 @@ footer {
     opacity: 0.7;
     
 }
-/* Search Page */
+
 .search-page {
     text-align: center;
     padding: 40px 20px;
@@ -230,7 +220,7 @@ footer {
     border-radius: 8px;
 }
 
-/* Hotel Page */
+
 .hotel-page {
     text-align: center;
     padding: 50px;
@@ -242,7 +232,7 @@ footer {
     margin-bottom: 20px;
 }
 
-/* Contact Page */
+
 .contact-page {
     text-align: center;
     padding: 50px;
@@ -274,7 +264,7 @@ footer {
 .contact-page button:hover {
     background: #0056b3;
 }
-/* Dropdown Button */
+
 .dropbtn {
     background-color: transparent;
     color: white;
@@ -284,13 +274,12 @@ footer {
     cursor: pointer;
 }
 
-/* Dropdown Container */
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-/* Dropdown Content */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -300,7 +289,7 @@ footer {
     z-index: 1;
 }
 
-/* Dropdown Links */
+
 .dropdown-content a {
     color: black;
     padding: 10px 15px;
@@ -308,12 +297,12 @@ footer {
     display: block;
 }
 
-/* Show Dropdown on Hover */
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Change color on hover */
+
 .dropdown-content a:hover {
     background-color: #f1f1f1;
 }
